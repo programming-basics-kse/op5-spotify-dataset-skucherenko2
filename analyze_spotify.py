@@ -1,7 +1,7 @@
 import ast
 import csv
 import itertools
-
+#
 rows = []
 with open('top_50_2023.csv', 'r') as file:
     csv_reader = csv.reader(file, delimiter=',')
